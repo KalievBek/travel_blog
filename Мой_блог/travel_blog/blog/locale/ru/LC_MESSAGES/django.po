@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-09 14:53+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: .\blog\forms.py:14
+msgid "Ваше имя"
+msgstr ""
+
+#: .\blog\forms.py:20
+msgid "Ваш комментарий (до 500 символов)"
+msgstr ""
+
+#: .\blog\forms.py:25
+msgid "Имя"
+msgstr ""
+
+#: .\blog\forms.py:26 .\blog\models.py:36 .\blog\models.py:44
+msgid "Комментарий"
+msgstr ""
+
+#: .\blog\forms.py:45
+msgid "Комментарий не может быть пустым."
+msgstr ""
+
+#: .\blog\forms.py:47
+msgid "Комментарий не должен превышать 500 символов."
+msgstr ""
+
+#: .\blog\forms.py:53
+msgid "Email"
+msgstr ""
+
+#: .\blog\forms.py:54
+msgid "Введите ваш email"
+msgstr ""
+
+#: .\blog\forms.py:57 .\blog\forms.py:82
+msgid "Имя пользователя"
+msgstr ""
+
+#: .\blog\forms.py:58 .\blog\forms.py:83
+msgid "Введите имя пользователя"
+msgstr ""
+
+#: .\blog\forms.py:61 .\blog\forms.py:86
+msgid "Пароль"
+msgstr ""
+
+#: .\blog\forms.py:62 .\blog\forms.py:87
+msgid "Введите пароль"
+msgstr ""
+
+#: .\blog\forms.py:65
+msgid "Подтверждение пароля"
+msgstr ""
+
+#: .\blog\forms.py:66
+msgid "Повторите пароль"
+msgstr ""
+
+#: .\blog\models.py:6
+msgid "Название категории"
+msgstr ""
+
+#: .\blog\models.py:7
+msgid "Описание"
+msgstr ""
+
+#: .\blog\models.py:13 .\blog\models.py:21 .\blog\templates\blog\index.html:15
+#: .\blog\templates\blog\post_detail.html:13
+msgid "Категория"
+msgstr ""
+
+#: .\blog\models.py:14
+msgid "Категории"
+msgstr ""
+
+#: .\blog\models.py:17
+msgid "Заголовок"
+msgstr ""
+
+#: .\blog\models.py:18
+msgid "Содержимое"
+msgstr ""
+
+#: .\blog\models.py:19
+msgid "Дата создания"
+msgstr ""
+
+#: .\blog\models.py:20
+msgid "Дата обновления"
+msgstr ""
+
+#: .\blog\models.py:22 .\blog\models.py:35 .\blog\templates\blog\index.html:14
+msgid "Автор"
+msgstr ""
+
+#: .\blog\models.py:23 .\blog\templates\blog\index.html:16
+#: .\blog\templates\blog\post_detail.html:14
+msgid "Страна"
+msgstr ""
+
+#: .\blog\models.py:24
+msgid "Фото"
+msgstr ""
+
+#: .\blog\models.py:30 .\blog\models.py:34
+msgid "Пост"
+msgstr ""
+
+#: .\blog\models.py:31
+msgid "Посты"
+msgstr ""
+
+#: .\blog\models.py:37
+msgid "Дата добавления"
+msgstr ""
+
+#: .\blog\models.py:38 .\blog\templates\blog\post_detail.html:15
+msgid "Опубликовано"
+msgstr ""
+
+#: .\blog\models.py:45 .\blog\templates\blog\post_detail.html:30
+msgid "Комментарии"
+msgstr ""
+
+#: .\blog\templates\blog\base.html:7 .\blog\templates\blog\base.html:14
+#: .\blog\templates\blog\index.html:4 .\blog\templates\blog\post_detail.html:5
+#: .\blog\templates\blog\register.html:4
+#: .\blog\templates\registration\login.html:4
+msgid "Блог о путешествиях"
+msgstr ""
+
+#: .\blog\templates\blog\base.html:16 .\blog\templates\blog\index.html:4
+msgid "Главная"
+msgstr ""
+
+#: .\blog\templates\blog\base.html:35
+msgid "Привет"
+msgstr ""
+
+#: .\blog\templates\blog\base.html:36
+msgid "Выйти"
+msgstr ""
+
+#: .\blog\templates\blog\base.html:38 .\blog\templates\blog\register.html:32
+#: .\blog\templates\registration\login.html:29
+msgid "Войти"
+msgstr ""
+
+#: .\blog\templates\blog\base.html:39 .\blog\templates\blog\register.html:4
+#: .\blog\templates\blog\register.html:8
+msgid "Регистрация"
+msgstr ""
+
+#: .\blog\templates\blog\base.html:52
+msgid "Бекмурат — Путешествия по миру"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:7
+msgid "Последние путешествия"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:18
+msgid "Читать далее..."
+msgstr ""
+
+#: .\blog\templates\blog\index.html:30
+msgid "Пока нет постов."
+msgstr ""
+
+#: .\blog\templates\blog\post_detail.html:12
+msgid "Автор поста"
+msgstr ""
+
+#: .\blog\templates\blog\post_detail.html:45
+msgid "Комментариев пока нет. Будьте первым!"
+msgstr ""
+
+#: .\blog\templates\blog\post_detail.html:51
+msgid "Оставить комментарий"
+msgstr ""
+
+#: .\blog\templates\blog\post_detail.html:71
+msgid "Опубликовать комментарий"
+msgstr ""
+
+#: .\blog\templates\blog\register.html:28
+#: .\blog\templates\registration\login.html:33
+msgid "Зарегистрироваться"
+msgstr ""
+
+#: .\blog\templates\blog\register.html:32
+msgid "Уже есть аккаунт?"
+msgstr ""
+
+#: .\blog\templates\registration\login.html:4
+msgid "Вход"
+msgstr ""
+
+#: .\blog\templates\registration\login.html:8
+msgid "Вход в аккаунт"
+msgstr ""
+
+#: .\blog\templates\registration\login.html:12
+msgid "Неверное имя пользователя или пароль."
+msgstr ""
+
+#: .\blog\templates\registration\login.html:33
+msgid "Нет аккаунта?"
+msgstr ""
+
+#: .\blog\views.py:44
+#, python-format
+msgid "Новый комментарий к посту \"%s\""
+msgstr ""
+
+#: .\blog\views.py:46
+#, python-format
+msgid ""
+"\n"
+"    Новый комментарий от %(author)s:\n"
+"\n"
+"    %(text)s\n"
+"\n"
+"    Пост: %(post_title)s\n"
+"    Дата: %(date)s\n"
+"\n"
+"    Ссылка на пост: http://localhost:8000/post/%(post_id)s/\n"
+"    "
+msgstr ""

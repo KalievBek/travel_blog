@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ request.LANGUAGE_CODE }}">
+{% load static %}
+{% load i18n %}
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% trans "Блог о путешествиях" %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🌍 {% trans "Блог о путешествиях" %}</h1>
+            <nav>
+                <a href="{% url 'index' %}">{% trans "Главная" %}</a>
+
+                <!-- Языковой переключатель -->
+                <form action="{% url 'set_language' %}" method="post" class="language-form">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ request.get_full_path }}">
+                    <select name="language" onchange="this.form.submit()">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% for lang in LANGUAGES %}
+                            <option value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %}selected{% endif %}>
+                                {{ lang.1 }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </form>
+
+                <!-- Авторизация -->
+                {% if user.is_authenticated %}
+                    <span class="welcome-text">{% trans "Привет" %}, {{ user.username }}!</span>
+
+                    <!-- Форма для выхода (POST запрос) -->
+                    <form method="post" action="{% url 'logout' %}" class="logout-form">
+                        {% csrf_token %}
+                        <button type="submit" class="logout-btn">{% trans "Выйти" %}</button>
+                    </form>
+                {% else %}
+                    <a href="{% url 'login' %}">{% trans "Войти" %}</a>
+                    <a href="{% url 'register' %}">{% trans "Регистрация" %}</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Контент страницы будет вставлен сюда -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>© 2025 {% trans "Бекмурат — Путешествия по миру" %}</p>
+    </footer>
+</body>
+</html>

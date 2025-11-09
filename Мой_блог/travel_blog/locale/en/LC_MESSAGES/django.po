@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-09 14:00+0000\n"
+"PO-Revision-Date: 2025-11-09 14:00+0000\n"
+"Last-Translator: Bekmurat <kalievbekmurat2@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Блог о путешествиях"
+msgstr "Travel Blog"
+
+msgid "Главная"
+msgstr "Home"
+
+msgid "Привет"
+msgstr "Hello"
+
+msgid "Выйти"
+msgstr "Logout"
+
+msgid "Войти"
+msgstr "Login"
+
+msgid "Регистрация"
+msgstr "Register"
+
+msgid "Бекмурат — Путешествия по миру"
+msgstr "Bekmurat - Travel Around the World"
+
+msgid "Последние путешествия"
+msgstr "Latest Travels"
+
+msgid "Автор"
+msgstr "Author"
+
+msgid "Категория"
+msgstr "Category"
+
+msgid "Страна"
+msgstr "Country"
+
+msgid "Читать далее..."
+msgstr "Read more..."
+
+msgid "Пока нет постов."
+msgstr "No posts yet."
+
+msgid "Автор поста"
+msgstr "Post Author"
+
+msgid "Опубликовано"
+msgstr "Published"
+
+msgid "Комментарии"
+msgstr "Comments"
+
+msgid "Комментариев пока нет. Будьте первым!"
+msgstr "No comments yet. Be the first!"
+
+msgid "Оставить комментарий"
+msgstr "Leave a comment"
+
+msgid "Имя"
+msgstr "Name"
+
+msgid "Комментарий"
+msgstr "Comment"
+
+msgid "Опубликовать комментарий"
+msgstr "Publish comment"
+
+msgid "Ваше имя"
+msgstr "Your name"
+
+msgid "Ваш комментарий (до 500 символов)"
+msgstr "Your comment (up to 500 characters)"
+
+msgid "Комментарий не может быть пустым."
+msgstr "Comment cannot be empty."
+
+msgid "Комментарий не должен превышать 500 символов."
+msgstr "Comment should not exceed 500 characters."
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Имя пользователя"
+msgstr "Username"
+
+msgid "Пароль"
+msgstr "Password"
+
+msgid "Подтверждение пароля"
+msgstr "Password confirmation"
+
+msgid "Введите ваш email"
+msgstr "Enter your email"
+
+msgid "Введите имя пользователя"
+msgstr "Enter username"
+
+msgid "Введите пароль"
+msgstr "Enter password"
+
+msgid "Повторите пароль"
+msgstr "Repeat password"
+
+msgid "Зарегистрироваться"
+msgstr "Register"
+
+msgid "Уже есть аккаунт?"
+msgstr "Already have an account?"
+
+msgid "Вход в аккаунт"
+msgstr "Login to account"
+
+msgid "Неверное имя пользователя или пароль."
+msgstr "Invalid username or password."
+
+msgid "Нет аккаунта?"
+msgstr "No account?"

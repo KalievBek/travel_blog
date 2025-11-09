@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-09 14:00+0000\n"
+"PO-Revision-Date: 2025-11-09 14:00+0000\n"
+"Last-Translator: Bekmurat <kalievbekmurat2@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgid "Блог о путешествиях"
+msgstr "Блог о путешествиях"
+
+msgid "Главная"
+msgstr "Главная"
+
+msgid "Привет"
+msgstr "Привет"
+
+msgid "Выйти"
+msgstr "Выйти"
+
+msgid "Войти"
+msgstr "Войти"
+
+msgid "Регистрация"
+msgstr "Регистрация"
+
+msgid "Бекмурат — Путешествия по миру"
+msgstr "Бекмурат — Путешествия по миру"
+
+msgid "Последние путешествия"
+msgstr "Последние путешествия"
+
+msgid "Автор"
+msgstr "Автор"
+
+msgid "Категория"
+msgstr "Категория"
+
+msgid "Страна"
+msgstr "Страна"
+
+msgid "Читать далее..."
+msgstr "Читать далее..."
+
+msgid "Пока нет постов."
+msgstr "Пока нет постов."
+
+msgid "Автор поста"
+msgstr "Автор поста"
+
+msgid "Опубликовано"
+msgstr "Опубликовано"
+
+msgid "Комментарии"
+msgstr "Комментарии"
+
+msgid "Комментариев пока нет. Будьте первым!"
+msgstr "Комментариев пока нет. Будьте первым!"
+
+msgid "Оставить комментарий"
+msgstr "Оставить комментарий"
+
+msgid "Имя"
+msgstr "Имя"
+
+msgid "Комментарий"
+msgstr "Комментарий"
+
+msgid "Опубликовать комментарий"
+msgstr "Опубликовать комментарий"
+
+msgid "Ваше имя"
+msgstr "Ваше имя"
+
+msgid "Ваш комментарий (до 500 символов)"
+msgstr "Ваш комментарий (до 500 символов)"
+
+msgid "Комментарий не может быть пустым."
+msgstr "Комментарий не может быть пустым."
+
+msgid "Комментарий не должен превышать 500 символов."
+msgstr "Комментарий не должен превышать 500 символов."
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Имя пользователя"
+msgstr "Имя пользователя"
+
+msgid "Пароль"
+msgstr "Пароль"
+
+msgid "Подтверждение пароля"
+msgstr "Подтверждение пароля"
+
+msgid "Введите ваш email"
+msgstr "Введите ваш email"
+
+msgid "Введите имя пользователя"
+msgstr "Введите имя пользователя"
+
+msgid "Введите пароль"
+msgstr "Введите пароль"
+
+msgid "Повторите пароль"
+msgstr "Повторите пароль"
+
+msgid "Зарегистрироваться"
+msgstr "Зарегистрироваться"
+
+msgid "Уже есть аккаунт?"
+msgstr "Уже есть аккаунт?"
+
+msgid "Вход в аккаунт"
+msgstr "Вход в аккаунт"
+
+msgid "Неверное имя пользователя или пароль."
+msgstr "Неверное имя пользователя или пароль."
+
+msgid "Нет аккаунта?"
+msgstr "Нет аккаунта?"

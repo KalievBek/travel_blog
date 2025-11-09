@@ -1,0 +1,35 @@
+{% extends 'blog/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Регистрация" %} — {% trans "Блог о путешествиях" %}{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <h2>{% trans "Регистрация" %}</h2>
+
+    <form method="post" class="auth-form">
+        {% csrf_token %}
+
+        {% for field in form %}
+            <div class="form-group">
+                {{ field.label_tag }}
+                {{ field }}
+                {% if field.help_text %}
+                    <small class="help-text">{{ field.help_text }}</small>
+                {% endif %}
+                {% if field.errors %}
+                    <div class="error-message">
+                        {{ field.errors }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <button type="submit" class="btn-primary">{% trans "Зарегистрироваться" %}</button>
+    </form>
+
+    <p class="auth-link">
+        {% trans "Уже есть аккаунт?" %} <a href="{% url 'login' %}">{% trans "Войти" %}</a>
+    </p>
+</div>
+{% endblock %}

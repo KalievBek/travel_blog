@@ -1,0 +1,33 @@
+{% extends 'blog/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Главная" %} — {% trans "Блог о путешествиях" %}{% endblock %}
+
+{% block content %}
+<h2>{% trans "Последние путешествия" %}</h2>
+
+{% for post in posts %}
+<div class="post">
+    <div class="post-content">
+        <div class="post-text">
+            <h3>{{ post.title }}</h3>
+            <p><strong>{% trans "Автор" %}:</strong> {{ post.author }}</p>
+            <p><strong>{% trans "Категория" %}:</strong> {{ post.category.name }}</p>
+            <p><strong>{% trans "Страна" %}:</strong> {{ post.country }}</p>
+            <p>{{ post.content|truncatewords:30 }}</p>
+            <a href="{% url 'post_detail' post.id %}" class="read-more">{% trans "Читать далее..." %}</a>
+        </div>
+
+        {% if post.image %}
+        <div class="post-image">
+            <img src="{{ post.image.url }}" alt="{{ post.title }}">
+        </div>
+        {% endif %}
+    </div>
+</div>
+<hr>
+{% empty %}
+    <p>{% trans "Пока нет постов." %}</p>
+{% endfor %}
+
+{% endblock %}
